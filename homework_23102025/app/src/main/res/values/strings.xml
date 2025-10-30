@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Notes App</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="error_email_empty">Please enter email</string>
+    <string name="error_email_invalid">Please enter valid email</string>
+    <string name="error_password_empty">Please enter password</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="welcome_message">Welcome, %s</string>
+    <string name="add_note_button">Add Note</string>
+    <string name="note_title_hint">Title</string>
+    <string name="note_content_hint">Content</string>
+    <string name="save_note_button">Save Note</string>
+    <string name="error_title_empty">Title cannot be empty</string>
+    <string name="theme_red">Red</string>
+    <string name="theme_blue">Blue</string>
+    <string name="theme_green">Green</string>
+    <string name="select_theme">Select Theme</string>
+</resources>
