@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidInception25 - Notifications</string>
+
+    <!-- Tab labels -->
+    <string name="tab_creation">Создание</string>
+    <string name="tab_editing">Редактирование</string>
+    <string name="tab_messages">Сообщения</string>
+
+    <!-- Notification Settings Screen -->
+    <string name="notification_creation_title">Создание уведомления</string>
+    <string name="notification_title_label">Заголовок уведомления</string>
+    <string name="notification_title_error">Заголовок не может быть пустым</string>
+    <string name="notification_content_label">Текст уведомления</string>
+    <string name="notification_expandable_label">Раскрываемое уведомление</string>
+    <string name="notification_priority_label">Приоритет</string>
+    <string name="notification_activity_open_label">Открыть приложение при клике</string>
+    <string name="notification_reply_action_label">Добавить кнопку ответа</string>
+    <string name="notification_create_button">Создать уведомление</string>
+
+    <!-- Notification Edit Screen -->
+    <string name="notification_edit_title">Редактирование уведомления</string>
+    <string name="notification_id_label">ID уведомления</string>
+    <string name="notification_new_text_label">Новый текст</string>
+    <string name="notification_update_button">Обновить</string>
+    <string name="notification_clear_all_button">Удалить все уведомления</string>
+    <string name="notification_updated_message">Уведомление успешно обновлено</string>
+    <string name="notification_not_found_error">Уведомление с таким ID не найдено</string>
+    <string name="notification_invalid_data_error">Некорректные данные</string>
+    <string name="notification_all_cleared_message">Все уведомления удалены</string>
+    <string name="notification_no_notifications_error">Нет уведомлений для удаления</string>
+    <string name="notification_updated_title">Уведомление обновлено</string>
+    <string name="active_notification_ids">Активные ID уведомлений: %s</string>
+
+    <!-- Messages Screen -->
+    <string name="messages_screen_title">Сообщения</string>
+    <string name="message_input_label">Введите сообщение</string>
+    <string name="message_send_button">Отправить</string>
+
+    <!-- Toasts -->
+    <string name="notification_created_toast">Уведомление создано</string>
+    <string name="notification_updated_toast">Уведомление обновлено</string>
+    <string name="no_notifications_toast">Нет уведомлений</string>
+
+    <!-- Channels -->
+    <string name="notification_channel_low">Низкий приоритет</string>
+    <string name="notification_channel_default">Обычный приоритет</string>
+    <string name="notification_channel_high">Высокий приоритет</string>
+    <string name="notification_channel_max">Максимальный приоритет</string>
+
+    <!-- Actions -->
+    <string name="notification_reply_button">Ответить</string>
+
+    <!-- Settings -->
+    <string name="settings_screen_title">Настройки</string>
+</resources>
