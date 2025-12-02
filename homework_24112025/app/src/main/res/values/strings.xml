@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coroutines App</string>
+
+    <string name="coroutines_title">Coroutines Executor</string>
+    <string name="coroutine_count_label">Coroutine Count</string>
+    <string name="dispatcher_label">Dispatcher</string>
+    <string name="sequential_label">Sequential Execution</string>
+    <string name="parallel_label">Parallel Execution</string>
+    <string name="deferred_label">Deferred Launch</string>
+    <string name="background_work_label">Work in Background</string>
+    <string name="executing_label">Executing coroutines...</string>
+    <string name="launch_label">Launch Coroutines</string>
+    <string name="cancel_label">Cancel</string>
+
+    <string name="network_error">Network connection failed</string>
+    <string name="timeout_error">Operation timeout exceeded</string>
+    <string name="processing_error">Processing error occurred</string>
+    <string name="cancelled_message">Cancelled: %d coroutines</string>
+</resources>
