@@ -1,0 +1,57 @@
+# Файлы, созданные Gradle и Android Studio
+.gradle
+build/
+captures/
+
+# Файлы конфигурации локальной среды
+local.properties
+
+# Файлы и папки, созданные IDE (Android Studio, IntelliJ)
+*.iml
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Временные файлы
+*.log
+*.log.*
+
+# Файлы сборки и артефакты
+*.apk
+*.aab
+*.ap_
+*.aar
+*.class
+*.dex
+
+# Кэш компилятора и нативные билды
+.externalNativeBuild
+.cxx/
+*.o
+*.so
+
+# Кэш линтера и профилировщика Android
+*.hprof
+lint/
+.recommenders/
+
+# Файлы специфичные для Windows
+Thumbs.db
+
+# Автогенерируемые файлы для миграций и схемы БД Room
+*-migration.sql
+room_master_table
+room_master_table.*
+
+# Файлы конфигурации Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Конфигурации Firebase, Google Services (если есть)
+google-services.json
+google-services.production.json
+google-services.development.json
+GoogleService-Info.plist

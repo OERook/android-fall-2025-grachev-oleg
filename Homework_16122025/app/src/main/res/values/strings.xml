@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MusicBox</string>
+
+    <!-- Auth Screens -->
+    <string name="login_title">Вход</string>
+    <string name="register_title">Регистрация</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Пароль</string>
+    <string name="username_label">Имя пользователя</string>
+    <string name="confirm_password_label">Подтвердить пароль</string>
+    <string name="login_button">Вход</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="no_account">Нет аккаунта? Зарегистрируйтесь</string>
+    <string name="have_account">Уже есть аккаунт? Войти</string>
+
+    <!-- Music List Screen -->
+    <string name="music_list_title">Мои песни</string>
+    <string name="add_song_button">Добавить песню</string>
+    <string name="no_songs">Нет песен. Добавьте первую!</string>
+    <string name="profile_button">Профиль</string>
+    <string name="sort_button">Сортировка</string>
+
+    <!-- Add Song Screen -->
+    <string name="title_label">Название</string>
+    <string name="artist_label">Исполнитель</string>
+    <string name="album_label">Альбом</string>
+    <string name="duration_label">Длительность (сек)</string>
+    <string name="genre_label">Жанр</string>
+    <string name="year_label">Год релиза</string>
+    <string name="rating_label">Рейтинг (0.0-10.0)</string>
+    <string name="back_button">Назад</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="add_button">Добавить</string>
+    <string name="add_cover">Добавить обложку</string>
+
+    <!-- Sort Bottom Sheet -->
+    <string name="sort_newest">По новизне добавления</string>
+    <string name="sort_title">По названию</string>
+    <string name="sort_artist">По исполнителю</string>
+    <string name="sort_rating">По рейтингу</string>
+    <string name="sort_year">По новизне выпуска</string>
+    <string name="sort_duration">По времени трека</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Профиль</string>
+    <string name="logout_button">Выход</string>
+    <string name="delete_account_button">Удалить аккаунт</string>
+    <string name="delete_account_dialog_title">Удаление аккаунта</string>
+    <string name="delete_account_dialog_message">Вы уверены, что хотите удалить аккаунт? Это действие невозможно отменить. Все ваши данные будут удалены через 7 дней.</string>
+    <string name="delete_button">Удалить</string>
+    <string name="confirm_button">Подтвердить</string>
+    <string name="profile_avatar_description">Аватар пользователя</string>
+    <string name="songs_count_description">Добавлено песен</string>
+    <string name="username_description">Имя пользователя</string>
+    <string name="email_description">Email</string>
+    <string name="hello_user">Привет, %s!</string>
+    <string name="songs_count">%d песен</string>
+
+    <!-- Validation Messages -->
+    <string name="all_fields_required">Все поля обязательны</string>
+    <string name="passwords_not_match">Пароли не совпадают</string>
+    <string name="password_min_length">Пароль должен быть минимум 6 символов</string>
+    <string name="duration_must_be_number">Длительность должна быть числом</string>
+    <string name="year_must_be_number">Год должен быть числом</string>
+    <string name="rating_must_be_number">Рейтинг должен быть числом</string>
+    <string name="rating_must_be_between">Рейтинг должен быть от 0.0 до 10.0</string>
+    <string name="invalid_input">Некорректный ввод</string>
+    <string name="error_occurred">Ошибка при операции</string>
+    <string name="error_email_invalid">Некорректный email адрес</string>
+    <string name="error_email_exists">Пользователь с таким email уже существует</string>
+    <string name="error_username_length">Имя пользователя должно быть от 3 до 20 символов</string>
+    <string name="error_username_format">Имя пользователя может содержать только буквы, цифры и подчеркивания</string>
+    <string name="error_password_length">Пароль должен быть не менее 6 символов</string>
+    <string name="error_password_complexity">Пароль должен содержать хотя бы одну букву и одну цифру</string>
+    <string name="error_passwords_not_match">Пароли не совпадают</string>
+    <string name="error_title_length">Название должно быть от 1 до 100 символов</string>
+    <string name="error_artist_length">Исполнитель должен быть от 1 до 50 символов</string>
+    <string name="error_album_length">Альбом должен быть до 100 символов</string>
+    <string name="error_duration_range">Длительность должна быть от 1 до 3600 секунд</string>
+    <string name="error_year_range">Год должен быть от 1900 до %1$d</string>
+    <string name="error_genre_length">Жанр должен быть до 50 символов</string>
+    <string name="error_rating_range">Рейтинг должен быть от 0.0 до 10.0</string>
+
+    <!-- Success Messages -->
+    <string name="song_added">Песня добавлена!</string>
+
+    <!-- Image Related -->
+    <string name="song_cover_description">Обложка песни</string>
+    <string name="add_cover_description">Добавить обложку</string>
+    <string name="song_icon_description">Иконка песни</string>
+    <string name="add_song_icon_description">Добавить песню</string>
+    <string name="image_load_error">Ошибка при загрузке изображения</string>
+    <string name="image_decode_error">Ошибка при обработке изображения</string>
+
+    <!-- Formatting -->
+    <string name="rating_format">★ %1$.1f</string>
+    <string name="duration_format">%1$d:%2$02d</string>
+    <string name="separator">•</string>
+
+    <!-- Recovery Screen -->
+    <string name="recovery_title">Восстановление аккаунта</string>
+    <string name="recovery_message">Ваш аккаунт был удален %1$s назад. Вы можете восстановить его или удалить окончательно.</string>
+    <string name="restore_account_button">Восстановить аккаунт</string>
+    <string name="permanent_delete_button">Удалить окончательно</string>
+    <string name="account_restored">Аккаунт восстановлен</string>
+    <string name="account_permanently_deleted">Аккаунт удален окончательно</string>
+    <string name="days_ago">%1$d дней назад</string>
+    <string name="hours_ago">%1$d часов назад</string>
+    <string name="minutes_ago">%1$d минут назад</string>
+    <string name="just_now">только что</string>
+    <string name="recovery_expired">Срок восстановления аккаунта истек (прошло более 7 дней)</string>
+    <string name="recovery_days_remaining">Осталось дней для восстановления: %1$d</string>
+</resources>
